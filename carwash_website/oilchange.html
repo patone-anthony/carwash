@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://kit.fontawesome.com/d1a20cd8cd.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" rel="stylesheet" />
+  <title>Cross County Car Wash</title>
+</head>
+
+<body>
+  <div class="container">
+    <!-- Nabvar -->
+    <nav id="main-nav">
+      <div class="logo">
+        <img src="img/carwash_logo.png" alt="car wash logo">
+      </div>
+
+      <div class="menu-items">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li class='dropdown current1'>Services &nbsp;<i class="fas fa-chevron-down"></i>
+            <ul class="dropdown-content">
+              <li><a href="carwash.html">Car Wash</a></li>
+              <li><a href="oilchange.html">Oil Change</a></li>
+              <li><a href="detailing.html">Detailing</a></li>
+            </ul>
+          </li>
+          </li>
+          <li><a href="promotions.html">Promotions</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </div>
+
+      <div class="social">
+        <a href="https://www.facebook.com/crosscountycarwash/" target="blank"><i
+            class="fab fa-facebook-square fa-2x"></i></a>
+        <a href="https://www.instagram.com/crosscountycarwash95/" target="blank"><i
+            class="fab fa-instagram fa-2x"></i></a>
+        <a href="mailto:info@crosscountycarwash.com" target="blank"><i class="far fa-envelope fa-2x"></i></a>
+      </div>
+    </nav>
+
+    <!-- Content -->
+    <div id="oil-content" class="content-container">
+      <h1 class="oil-header gradient py-1">Express Oil Change</h1>
+      <h4>All oil changes come with complete 15 point service check:</h4>
+      <div class="oil-container">
+        <table id="oil-table">
+          <tr>
+            <td>1. Replace up to 5 Qts. of oil</td>
+            <td>9. Replace oil filter</td>
+          </tr>
+          <tr>
+            <td>2. Lubricate chassis</td>
+            <td>10. Check air filter</td>
+          </tr>
+          <tr>
+            <td>3. Check windshield wiper blades</td>
+            <td>11. Check and top off windshield fluid</td>
+          </tr>
+          <tr>
+            <td>4. Check and top off power steering fluid</td>
+            <td>12. Check brake fluid level and top off</td>
+          </tr>
+          <tr>
+            <td>5. Check & adjust tire pressure</td>
+            <td>13. Check exterior lights</td>
+          </tr>
+          <tr>
+            <td>6.Lubricate door hinges</td>
+            <td>14. Check transmission fluid and advise</td>
+          </tr>
+          <tr>
+            <td>7. Check and top off battery water</td>
+            <td>15. Battery Inspected and replaced if requested</td>
+          </tr>
+          <tr>
+            <td>8. Cabin Air Filter Inspected and<br> replaced if requested</td>
+            <td></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+
+
+  </div>
+
+
+
+
+
+
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-1 center">
+        <div id="map"></div>
+      </div>
+      <div class="footer-1 center1">
+        <div class="footer-address">
+          <div class="circle"><i class="fas fa-map-marker-alt fa-2x"></i></div>
+          <p>95 Vredenburgh Ave, <br>Yonkers, NY 10704</p>
+        </div>
+        <div class="footer-phone">
+          <div class="circle"><i class="fas fa-phone-alt fa-2x"></i></div>
+          <p>(914) 965-8787</p>
+        </div>
+
+        <div class="footer-mail">
+          <div class="circle"><i class="far fa-envelope fa-2x"></i></div>
+          <p><a href="mailto:info@crosscountycarwash.com">
+              info@crosscountycarwash.com</a></p>
+        </div>
+      </div>
+      <div class="footer-3">
+        <div class="content"><i class="fas fa-users fa-2x "></i>
+          <p>Cross County Car Wash is family owned and operated since 2001 and is located in
+            Cross County Shopping Center opposite the movie theater. We are a one stop facility featuring our Citgo
+            gas
+            station with competitive low gas prices, full service car wash, detail center, windshield repair, oil
+            change
+            and a large convenience store.</p>
+        </div>
+      </div>
+
+      <div class="copy">
+        <p>Copyright &copy; 2019, All Rights Reserved</p>
+      </div>
+  </footer>
+
+  </div>
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqxGhRXtIVduXGot4rEvu6yco0LemSp20&callback=initMap"
+    async defer></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
